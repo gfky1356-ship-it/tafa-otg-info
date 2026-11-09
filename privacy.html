@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TAFA OTG Privacy Policy</title>
+<style>body{font:18px/1.55 system-ui,sans-serif;max-width:760px;margin:4rem auto;padding:0 1.2rem;color:#17202b}h1{font-size:2rem}h2{font-size:1.2rem}a{color:#1259a7}</style>
+<h1>TAFA OTG Privacy Policy</h1>
+<p>Last updated: 9 November 2026</p>
+<p>TAFA OTG is a personal tool used by its owner. It accesses Google Drive only after the owner grants OAuth permission.</p>
+<h2>Data accessed and purpose</h2>
+<p>For the ticker entered by the owner, the tool reads existing technical-analysis cache files, financial-analysis source files, and folder metadata from the owner's Google Drive. It uses these files to build one stock research report and writes that HTML report into the owner's Google Drive. It does not read Gmail or Google account contacts.</p>
+<h2>Storage and processing</h2>
+<p>The tool runs in the owner's private GitHub Actions repository. Input files are downloaded to the temporary workflow runner and processed there. The runner's temporary files are removed when the job ends. The resulting report remains in the owner's Google Drive until the owner removes it. An OAuth refresh credential is stored locally on the owner's Mac and as an encrypted GitHub Actions secret in the owner's private repository. GitHub workflow logs record the selected ticker, execution status, and resulting Drive link; they are visible to people with access to that private repository.</p>
+<h2>Sharing</h2>
+<p>TAFA OTG does not sell, advertise with, or independently share the owner's Google Drive data. Google provides Drive storage and OAuth access, and GitHub hosts the private workflow that processes the files. The owner controls repository access and Google Drive sharing permissions.</p>
+<h2>Control and contact</h2>
+<p>The owner can revoke the app's Google access in Google Account settings, remove the GitHub Actions secret, or delete reports from Google Drive. Questions: <a href="mailto:gfky1356@gmail.com">gfky1356@gmail.com</a>.</p>
+<p><a href="index.html">TAFA OTG home</a></p>
+</html>
